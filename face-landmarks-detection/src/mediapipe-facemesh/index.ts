@@ -52,7 +52,7 @@ export interface EstimateFacesConfig {
 const PREDICTION_VALUES = 'MediaPipePredictionValues';
 type PredictionValuesKind = typeof PREDICTION_VALUES;
 
-interface AnnotatedPredictionValues {
+export interface AnnotatedPredictionValues {
   kind: PredictionValuesKind;
   /** Probability of the face detection. */
   faceInViewConfidence: number;

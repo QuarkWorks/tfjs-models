@@ -29,7 +29,7 @@ const FACEMESH_GRAPHMODEL_PATH =
 const MESH_MODEL_INPUT_WIDTH = 192;
 const MESH_MODEL_INPUT_HEIGHT = 192;
 
-interface AnnotatedPredictionValues {
+export interface AnnotatedPredictionValues {
   /** Probability of the face detection. */
   faceInViewConfidence: number;
   boundingBox: {
